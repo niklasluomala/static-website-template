@@ -1,4 +1,7 @@
 $PADDING_DEFAULT: 15px;
+$title-color: red;
+
+@import "./layouts/landing.scss";
 
 .title {
   text-transform: uppercase;
@@ -6,6 +9,7 @@ $PADDING_DEFAULT: 15px;
 
   h2 {
     text-decoration: underline;
+    color: $title-color;
   }
 }
 
